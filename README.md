@@ -39,16 +39,16 @@ Cloudflare DNS → Traefik (HTTPS termination + CrowdSec middleware)
 - Exposure control: Public access only through Traefik with valid Cloudflare certificates
 
 <img width="499" height="459" alt="image" src="https://github.com/user-attachments/assets/19231889-be7c-49c3-92bc-4c1450fdedc4" />
-<img width="594" height="460" alt="image" src="https://github.com/user-attachments/assets/4327cfe4-1faf-4c36-89c7-bc292a05767f" />
+<img width="499" height="459" alt="image" src="https://github.com/user-attachments/assets/4327cfe4-1faf-4c36-89c7-bc292a05767f" />
 
 # Technologies Used
 
-Authentik 2025.10.3 (self-hosted IdP)
-Traefik (reverse proxy with forward auth)
-Docker Compose (orchestration)
-PostgreSQL 16-alpine (sole database backend)
-Cloudflare (DNS + certificate management)
-CrowdSec (brute-force protection middleware)
+- Authentik 2025.10.3 (self-hosted IdP)
+- Traefik (reverse proxy with forward auth)
+- Docker Compose (orchestration)
+- PostgreSQL 16-alpine (sole database backend)
+- Cloudflare (DNS + certificate management)
+- CrowdSec (brute-force protection middleware)
 
 # Learning Outcomes
 
@@ -61,7 +61,7 @@ CrowdSec (brute-force protection middleware)
 
 This project serves as a practical demonstration of modern IAM principles in a real-world homelab environment.
 
-#Future Enhancements
+# Future Enhancements
 
 - Complete forward auth rollout for all remaining services
 - Implement group-based role mapping across applications
